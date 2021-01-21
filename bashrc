@@ -121,3 +121,4 @@ PATH=/usr/local/texlive/2020/bin/x86_64-linux:$PATH
 
 cp ~/.bashrc ~/.my_bash/bashrc
 cp ~/.bash_aliases ~/.my_bash/bash_aliases
+cp -r ~/.my_bash/* /home/edgar/gdrive/AI/computer_science/my_bash

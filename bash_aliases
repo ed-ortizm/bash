@@ -13,7 +13,5 @@ alias manifold_learning="cd ~/gdrive/AI/02_projects_working_on/05_manifold_learn
 alias xAI="cd ~/gdrive/AI/02_projects_working_on/07_xAI"
 
 # venus
-alias venus="sshpass -p flor3329558encia11235813 ssh -YCp 2210 edgar@146.83.154.20"
-alias venusmnt="sshfs -p 2210 -C -o follow_symlinks -o ServerAliveInterval=15 -o reconnect edgar@146.83.154.20: venus"
-
-
+alias venus="ssh -YCp 2210 edgar@146.83.154.20"
+alias mvenus="sshfs -p 2210 -C -o follow_symlinks -o ServerAliveInterval=15 -o reconnect edgar@146.83.154.20: venus"
